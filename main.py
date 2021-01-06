@@ -52,7 +52,7 @@ def polling_loop():
             temperature = sensor_reading['temperature']
             humidity = sensor_reading['humidity']
             points.append({
-                "measurement": "sensor",
+                "measurement": "sensorpush_sensor",
                 "tags": {
                     "sensor_id": sensor_id,
                     "sensor_name": sensor_name
